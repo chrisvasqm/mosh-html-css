@@ -1,6 +1,6 @@
 # Mastering HTML and CSS
 
-Demo project that is part of the Mastering HTML and CSS course series by Mosh Hamedani.
+Demo project that is part of the Ultimate HTML and CSS course series by Mosh Hamedani.
 
 ## Recommneded tools
 
