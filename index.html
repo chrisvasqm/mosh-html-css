@@ -7,46 +7,27 @@
     <meta name="keywords" content="HTML, CSS, Cat, Tweet" />
     <title>Website</title>
     <style>
-      table,
-      td,
-      th {
-        border: 1px solid grey;
-        border-collapse: collapse;
-        padding: 4px;
+      .product {
+        background-color: gold;
+        padding: 8px;
+        width: 300px;
+        margin-bottom: 8px;
       }
 
-      tfoot {
-        text-align: left;
+      .highlight {
+        background-color: blue;
       }
     </style>
   </head>
   <body>
-    <table>
-      <thead>
-        <tr>
-          <th colspan="2">Expenses</th>
-        </tr>
-        <tr>
-          <th>Category</th>
-          <th>Amount</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Marketing</td>
-          <td>$100</td>
-        </tr>
-        <tr>
-          <td>Accounting</td>
-          <td>$200</td>
-        </tr>
-      </tbody>
-      <tfoot>
-        <tr>
-          <th>Total</th>
-          <th>$300</th>
-        </tr>
-      </tfoot>
-    </table>
+    <div class="product">
+      <p><span class='highlight'>Lorem</span> ipsum dolor sit amet consectetur adipisicing elit. Optio, dolorem?</p>
+      <a href="#">Link</a>
+    </div>
+
+    <div class="product">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, dolorem?</p>
+      <a href="#">Link</a>
+    </div>
   </body>
 </html>
