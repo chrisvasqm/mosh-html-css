@@ -2,9 +2,18 @@ body {
   margin: 30px;
 }
 
-.avatar {
-  width: 100px;
-  border-radius: 100%;
-  float: left;
-  margin-right: 0.5rem;
+.container {
+  border: 3px solid lightgray;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 5rem;
+  height: 5rem;
+  background: gold;
+  margin: 1rem;
 }
