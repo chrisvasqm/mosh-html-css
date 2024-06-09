@@ -6,26 +6,47 @@
     <meta name="description" content="A Tweet looking website with a cat's information" />
     <meta name="keywords" content="HTML, CSS, Cat, Tweet" />
     <title>Website</title>
-    <style></style>
+    <style>
+      table,
+      td,
+      th {
+        border: 1px solid grey;
+        border-collapse: collapse;
+        padding: 4px;
+      }
+
+      tfoot {
+        text-align: left;
+      }
+    </style>
   </head>
   <body>
-    <ul>
-      <li>One</li>
-      <li>Two</li>
-    </ul>
-
-    <ol>
-      <li>Cookies</li>
-      <li>Milk</li>
-      <li>Chocolate</li>
-    </ol>
-
-    <dl>
-      <dt>Title</dt>
-      <dd>The Ultimate HTML/CSS Course</dd>
-
-      <dt>Author</dt>
-      <dd>Mosh Hamedani</dd>
-    </dl>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">Expenses</th>
+        </tr>
+        <tr>
+          <th>Category</th>
+          <th>Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Marketing</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>Accounting</td>
+          <td>$200</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Total</th>
+          <th>$300</th>
+        </tr>
+      </tfoot>
+    </table>
   </body>
 </html>
