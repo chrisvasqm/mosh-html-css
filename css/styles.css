@@ -2,23 +2,20 @@ body {
   margin: 10px;
 }
 
-article p:first-of-type {
+p::first-letter {
   font-size: 140%;
-  font-style: italic;
-}
-
-article p:last-of-type {
   font-weight: bold;
 }
 
-ul li:nth-child(odd) {
-  color: deeppink;
+p::first-line {
+  font-weight: bold;
 }
 
-a:visited, a:link {
-  color: dodgerblue;
+::selection {
+  background-color: pink;
 }
 
-a:hover, a:focus {
-  color: deeppink;
+p::after {
+  content: "...";
+  display: block;
 }
