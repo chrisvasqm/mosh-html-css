@@ -8,7 +8,25 @@ body {
   background-color: white;
   border-radius: 30px;
   box-shadow: 5px 5px 5px lightgray;
+}
+
+.card-content {
   padding: 1rem;
+  font-weight: 500;
+}
+
+.card-footer {
+  padding: 1rem 3rem;
+  border-radius: 0 0 30px 30px;
+  background: rgb(116, 214, 144);
+  background: linear-gradient(90deg, rgba(116, 214, 144, 1) 0%, rgba(92, 191, 187, 1) 79%);
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
 .image-profile {
