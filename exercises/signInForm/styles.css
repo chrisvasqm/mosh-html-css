@@ -28,6 +28,10 @@ button {
   border-radius: 50px;
   width: 100%;
   margin-bottom: 0;
+  background-color: #0d6efd;
+  border: 0;
+  text-transform: none;
+  font-weight: 300;
 }
 
 form {
