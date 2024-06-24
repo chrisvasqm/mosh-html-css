@@ -15,12 +15,18 @@
   </head>
   <body>
     <form>
-      <input type="text" autofocus list="countries" autocomplete='off' />
-      <datalist id="countries">
-        <option data-value="1">Australia</option>
-        <option data-value="2">Canada</option>
-        <option data-value="3">United States</option>
-      </datalist>
+      <select>
+        <optgroup label='Frontend Courses'>
+          <option value="1">HTML</option>
+          <option value="2">CSS</option>
+          <option value="3">JavaScript</option>
+        </optgroup>
+        <optgroup label='Backend Courses'>
+          <option value="1">Node</option>
+          <option value="2">Django</option>
+          <option value="3">ASP.NET</option>
+        </optgroup>
+      </select>
     </form>
   </body>
 </html>
