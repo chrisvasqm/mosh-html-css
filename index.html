@@ -15,7 +15,12 @@
   </head>
   <body>
     <form>
-      <input type="file" accept=".jpg" />
+      <label for="email">Email</label>
+      <input id="email" type="email" required minlength="3" maxlength="10" />
+
+      <label for="age">Age</label>
+      <input id="age" type="number" min="0" max="10" />
+      <button type="submit">Submit</button>
     </form>
   </body>
 </html>
