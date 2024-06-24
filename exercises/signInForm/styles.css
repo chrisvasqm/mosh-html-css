@@ -41,3 +41,12 @@ form {
   align-items: center;
   justify-content: center;
 }
+
+input {
+  border-color: #ced4da;
+}
+
+input:focus {
+  border-color: #86b7fe;
+  box-shadow: #b9d3fa;
+}
